@@ -11,6 +11,5 @@ CSV File Persistence – Automatically load data from and save changes to the CS
 Exit Program – Safely terminate, ensuring any buffered changes are flushed to the file.
 
 Steps to Execute:
-1.  Download 'a.out' file from the repo for linux
-<br>
+1.  Download 'a.out' file from the repo for linux<br>
     dp@DP:/mnt/d/Address_Book$ ./a.out
