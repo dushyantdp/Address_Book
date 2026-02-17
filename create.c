@@ -77,7 +77,7 @@ void create_contact(Addressbook * adrbook)
         else
         printf(RED"Enter valid city!"RESET"\n");
     }
-    fprintf(tfptr,"%s,%s,%s,%s\n",adrbook->contacts.name,adrbook->contacts.phone,adrbook->contacts.email,adrbook->contacts.city);
+    // fprintf(tfptr,"%s,%s,%s,%s\n",adrbook->contacts.name,adrbook->contacts.phone,adrbook->contacts.email,adrbook->contacts.city);
     fclose(mfptr);
     fclose(tfptr);
     FILE *mptr = fopen("data.csv","w");
