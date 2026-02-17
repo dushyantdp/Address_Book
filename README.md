@@ -9,3 +9,7 @@ Delete Specific Contact – Remove a selected contact, then rewrite the CSV with
 Delete All Contacts – Clear the entire address book by truncating or deleting the CSV file.
 CSV File Persistence – Automatically load data from and save changes to the CSV, ensuring data survives between runs. 
 Exit Program – Safely terminate, ensuring any buffered changes are flushed to the file.
+
+Steps to Execute:
+1.  Download 'a.out' file from the repo for linux
+    dp@DP:/mnt/d/Address_Book$ ./a.out
