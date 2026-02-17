@@ -77,7 +77,7 @@ void create_contact(Addressbook * adrbook)
         else
         printf(RED"Enter valid city!"RESET"\n");
     }
-    // fprintf(tfptr,"%s,%s,%s,%s\n",adrbook->contacts.name,adrbook->contacts.phone,adrbook->contacts.email,adrbook->contacts.city);
+    fprintf(tfptr,"%s,%s,%s,%s\n",adrbook->contacts.name,adrbook->contacts.phone,adrbook->contacts.email,adrbook->contacts.city);
     fclose(mfptr);
     fclose(tfptr);
     FILE *mptr = fopen("data.csv","w");
@@ -175,7 +175,7 @@ int unique_phone(Addressbook * adrbook , char * phone)
     fscanf(mptr,"%d\n",&count);
     while(fscanf(mptr," %[^,],%[^,],%[^,],%[^\n]",name1,phone1,email1,city1)!=EOF)
     {
-        printf("%s\n%s\n",phone,phone1);
+        // printf("%s\n%s\n",phone,phone1);
         // fscanf(mfptr," %[^,],%[^,],%[^,],%[^\n]",adrbook->contacts.name,adrbook->contacts.phone,adrbook->contacts.email,adrbook->contacts.city);
         if(strcmp(phone1,phone) == 0)
         {
