@@ -41,7 +41,7 @@ void list_contacts(Addressbook * adrbook)
     
     while(option)
     {
-      printf("-------------------------------------\n");
+      // printf("-------------------------------------\n");
       printf(CYAN"Enter Choice: "RESET);
       scanf("%d",&choice);
       clear_stdin();
@@ -102,7 +102,7 @@ void sort_by_name(Contact * disp, int size)
     printf(BLUE"Phone :"RESET " %s\n",disp[k].phone);
     printf(BLUE"Email :"RESET " %s\n",disp[k].email);
     printf(BLUE"City  :"RESET " %s\n",disp[k].city);
-    // printf("---------------------------------------\n"); 
+    printf("---------------------------------------\n"); 
   }
 }
 
